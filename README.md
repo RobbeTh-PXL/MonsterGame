@@ -22,10 +22,10 @@ To run a C++ program on a clean Windows PC, you'll need to follow these general 
    Use the `cd` command to navigate to the directory where your C++ files are located.
 
 5. **Compile Your Code**:
-   Use the compiler to compile your code. For example, if you have a file named `main.cpp`, you can compile it like this using MinGW-w64:
+   Use the compiler to compile your code. For example, if you have a file named `MonsterGame.cpp`, you can compile it like this using MinGW-w64:
    
    ```sh
-   g++ -o myprogram main.cpp
+   g++ -o Game MonsterGame.cpp
    ```
 
    This will generate an executable file named `myprogram.exe`.
@@ -34,7 +34,7 @@ To run a C++ program on a clean Windows PC, you'll need to follow these general 
    Once your program is compiled, you can run it from the command prompt:
    
    ```sh
-   myprogram
+   Game
    ```
 
 Remember that you need to install a C++ compiler on the clean Windows PC before you can compile and run your code. Additionally, ensure that you have the necessary libraries (like `iostream`, `fstream`, etc.) included correctly in your code.
